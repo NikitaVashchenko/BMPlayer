@@ -11,7 +11,7 @@ s.homepage         = "https://github.com/BrikerMan/BMPlayer"
 
 s.license          = 'MIT'
 s.author           = { "Eliyar Eziz" => "eliyar917@gmail.com" }
-s.source           = { :git => "https://github.com/BrikerMan/BMPlayer.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/NikitaVashchenko/BMPlayer.git", :tag => s.version.to_s }
 s.social_media_url = 'http://weibo.com/536445669'
 
 s.ios.deployment_target = '10.0'
