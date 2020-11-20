@@ -340,12 +340,8 @@ open class BMPlayer: UIView {
         controlView.updateUI(!self.isFullScreen)
         if isFullScreen {
             UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
-            UIApplication.shared.setStatusBarHidden(false, with: .fade)
-            UIApplication.shared.statusBarOrientation = .portrait
         } else {
             UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orientation")
-            UIApplication.shared.setStatusBarHidden(false, with: .fade)
-            UIApplication.shared.statusBarOrientation = .landscapeRight
         }
     }
     
